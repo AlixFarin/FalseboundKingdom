@@ -1,0 +1,29 @@
+# See config.example.yml for documentation.
+object_base: orig/GYFEA4
+object: sys/main.dol
+hash: 1fad2150196a99221f9f52bf748eb25b17076825
+# Change this to match the linker verison.
+# See config.example.yml for a list.
+mw_comment_version: 11
+
+detect_objects: true
+
+detect_strings: true
+
+write_asm: true
+
+symbols_known: false
+
+fill_gaps: true
+
+export_all: true
+
+modules:
+
+- object: files/effect/B_MODULE.MRG
+  hash: 4ff07e4882be36a79350e599260a46157f6e1c2d
+  name: B_MODULE.MRG
+
+- object: files/effect/Z_MODULE.MRG
+  hash: c391ac3e101cae2c611c0e17b3d19cb1b02909da
+  name: Z_MODULE.MRG
